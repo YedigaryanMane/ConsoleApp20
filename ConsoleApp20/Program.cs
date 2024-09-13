@@ -55,7 +55,6 @@ namespace ConsoleApp20
     {
         public string name;
         public string capital;
-
         public void PrintCountry()
         {
             Console.WriteLine($"name: {name} \\ capital: {capital}");
@@ -116,7 +115,6 @@ namespace ConsoleApp20
         public string brand;
         public string name;
         public string color;
-
         public void PrintWhatIWillSay()
         {
             Console.WriteLine($"Cake is {brand} brand.It's name is {name}.it is {color}");
@@ -129,7 +127,6 @@ namespace ConsoleApp20
             this.color = color;
         }
     }
-
     class Necklace
     {
         public string brand;
